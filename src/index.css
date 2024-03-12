@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background: #093469;
+  color: #5987ec;
+  margin-bottom: 80px;
+}
+
+:is(h1, h2, h3, ul, li, p) {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.active {
+  color: #f50057;
+}
+
+h2 {
+  font-size: 23px;
+  text-align: center;
+  margin: 20px 0;
+}
