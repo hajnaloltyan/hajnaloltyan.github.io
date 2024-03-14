@@ -7,8 +7,10 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
-  background: radial-gradient(circle, #480079, #010638);
-  color: #6279ff;
+  /* background: radial-gradient(circle, #480079, #010638); */
+  background: radial-gradient(circle, #801357 31%, #3d1635 84%, #2e1322 98%);
+  /* background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%); */
+  color: #b38df0;
   margin-bottom: 80px;
 }
 
