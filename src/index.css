@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   /* background: radial-gradient(circle, #480079, #010638); */
-  background: radial-gradient(circle, #801357 31%, #3d1635 84%, #2e1322 98%);
+  background: radial-gradient(circle, #9c1869 31%, #521e47 84%, #3f1a2e 98%);
   /* background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%); */
   color: #b38df0;
   margin-bottom: 80px;
@@ -42,4 +42,74 @@ h2 {
   font-size: 23px;
   text-align: center;
   margin: 20px 0;
+}
+
+.container {
+  position: relative;
+  top: 3vh;
+  left: 4vw;
+  width: 50px;
+  height: 50px;
+  animation: rotateContainer 10s linear infinite;
+}
+
+.container div {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  transform-origin: 25px;
+  animation-iteration-count: 1;
+  animation-duration: 5s;
+}
+
+.circle-1 {
+  background-color: rgb(255, 0, 0.5);
+  transform: translate(0px, 13px) rotate(0deg);
+  animation-name: color;
+}
+
+.circle-2 {
+  background-color: rgba(255, 166, 0, 0.5);
+  transform: translate(0px, 13px) rotate(60deg);
+  animation-name: color;
+}
+
+.circle-3 {
+  background-color: rgba(255, 255, 0, 0.5);
+  transform: translate(0px, 13px) rotate(120deg);
+  animation-name: color;
+}
+
+.circle-4 {
+  background-color: rgba(0, 128, 0, 0.5);
+  transform: translate(0px, 13px) rotate(180deg);
+  animation-name: color;
+}
+
+.circle-5 {
+  background-color: rgba(0, 0, 255, 0.5);
+  transform: translate(0px, 13px) rotate(240deg);
+  animation-name: color;
+}
+
+.circle-6 {
+  background-color: rgba(128, 0, 128, 0.5);
+  transform: translate(0px, 13px) rotate(300deg);
+  animation-name: color;
+}
+
+@keyframes color {
+  20% {
+    transform: translate(0px, 13px) rotate(-360deg);
+  }
+}
+
+@keyframes rotateContainer {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
 }

@@ -10,7 +10,7 @@ import {
 } from 'react-icons/fa';
 import { FiMenu } from 'react-icons/fi';
 import { MdClose } from 'react-icons/md';
-import Colours from './Colours/Colours';
+import Colours from './Colours';
 
 Modal.setAppElement('#root');
 
@@ -26,8 +26,8 @@ const Header = () => {
   };
 
   return (
-    <header className="header flex flex-col items-center relative py-3">
-      <div className="flex justify-center items-center gap-[10vw]">
+    <header className="header flex flex-col items-center relative py-3 border-black border-b-8">
+      <div className="flex justify-center items-center gap-[5vw]">
         <Colours />
         <h1 className="font-rampart-one font-black text-3xl text-nowrap">HAJNAL OLTYAN</h1>
       </div>
@@ -36,7 +36,7 @@ const Header = () => {
           <li className="h-12 flex">
             <a
               to="https://github.com/hajnaloltyan"
-              className="flex items-center no-underline text-violet-600"
+              className="flex items-center no-underline text-violet-800"
               target="_blank"
               rel="noreferrer"
             >
@@ -46,7 +46,7 @@ const Header = () => {
 
           <li className="h-12 flex">
             <button
-              className="flex items-center no-underline text-violet-600"
+              className="flex items-center no-underline text-violet-800"
               type="button"
             >
               {isMenuOpen ? (
@@ -66,7 +66,7 @@ const Header = () => {
           <li className="h-12 flex">
             <a
               to="https://www.linkedin.com/in/hajnaloltyan"
-              className="flex items-center no-underline text-violet-600"
+              className="flex items-center no-underline text-violet-800"
               target="_blank"
               rel="noreferrer"
             >
@@ -95,14 +95,14 @@ const Header = () => {
             </li>
             <li>
               <NavLink to="/skills" className="flex items-center pb-12 gap-8" onClick={closeMenu}>
-                <FaCode color="lightyellow" />
+                <FaCode color="yellow" />
                 {' '}
                 Skills
               </NavLink>
             </li>
             <li>
               <NavLink to="/projects" className="flex items-center pb-12 gap-8" onClick={closeMenu}>
-                <FaBriefcase color="skyblue" />
+                <FaBriefcase color="blue" />
                 {' '}
                 Projects
               </NavLink>

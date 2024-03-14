@@ -1,5 +1,3 @@
-import './Colours.css';
-
 const Colours = () => (
   <div className="container">
     <div className="circle-1" />
