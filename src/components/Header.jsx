@@ -26,7 +26,7 @@ const Header = () => {
   };
 
   return (
-    <header className="header flex flex-col items-center relative border-b-8 border-black py-3">
+    <header className="header flex flex-col items-center relative py-3">
       <div className="flex justify-center items-center gap-[10vw]">
         <Colours />
         <h1 className="font-rampart-one font-black text-3xl text-nowrap">HAJNAL OLTYAN</h1>
