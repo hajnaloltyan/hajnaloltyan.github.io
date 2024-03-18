@@ -8,7 +8,7 @@ export default {
     extend: {
       fontFamily: {
         'fuzzy-bubbles': ['Fuzzy Bubbles', 'cursive'],
-        mali: ['Mali', 'cursive'],
+        'mali': ['Mali', 'cursive'],
         'press-start-2p': ['Press Start 2P', 'cursive'],
         'bungee-shade': ['Bungee Shade', 'cursive'],
         'rampart-one': ['Rampart One', 'cursive'],

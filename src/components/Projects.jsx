@@ -3,7 +3,7 @@ import projectDetails from '../projectDetails';
 
 const Projects = () => (
   <section className="flex flex-col gap-5">
-    <h2 className="font-rampart-one font-black text-3xl my-8">Projects</h2>
+    <h2 className="font-rampart-one font-black text-3xl my-8 text-center">Projects</h2>
     {projectDetails.sort((a, b) => b.id - a.id).map(({
       id, image, name, technologies, description, githubURL, liveDemoURL,
     }) => (

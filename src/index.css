@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(to bottom, #000a32 0%, 22%, #062261 44%, 52%, #272c6c 61%, 69%, #56418c 76%, 81%, #7a4f9e 85%, 89%, #995ba8 92%, 96%, #c06aab 100%);
-  color: #b38df0;
+  color: #c7aef0;
   margin-bottom: 80px;
 }
 
@@ -34,12 +34,6 @@ button {
 
 .active {
   color: #f50057;
-}
-
-h2 {
-  font-size: 23px;
-  text-align: center;
-  margin: 20px 0;
 }
 
 .container {
