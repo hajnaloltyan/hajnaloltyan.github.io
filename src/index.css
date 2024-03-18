@@ -7,9 +7,8 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
-  /* background: radial-gradient(circle, #480079, #010638); */
-  background: radial-gradient(circle, #9c1869 31%, #521e47 84%, #3f1a2e 98%);
-  /* background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%); */
+  /* background: radial-gradient(circle, #9c1869 31%, #521e47 84%, #3f1a2e 98%); */
+  background: linear-gradient(to bottom, #000a32 0%, 22%, #062261 44%, 52%, #272c6c 61%, 69%, #56418c 76%, 81%, #7a4f9e 85%, 89%, #995ba8 92%, 96%, #c06aab 100%);
   color: #b38df0;
   margin-bottom: 80px;
 }
