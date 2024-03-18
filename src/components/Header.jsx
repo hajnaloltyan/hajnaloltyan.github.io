@@ -82,7 +82,7 @@ const Header = () => {
           onRequestClose={toggleMenu}
           close
           className="text-lg uppercase cursor-pointer font-mali text-white"
-          overlayClassName="bg-black bg-opacity-85 fixed inset-0 flex justify-center items-center pt-20"
+          overlayClassName="bg-black bg-opacity-95 fixed inset-0 flex justify-center items-center pt-20"
           closeTimeoutMS={500}
         >
           <ul className="text-2xl">
